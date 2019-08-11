@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TopUpAccount"
+    android:background="@color/material_grey_300"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topUpToolbar"
+        app:titleTextColor="@color/themeColor"
+        android:background="@color/white"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Up Account"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remaining Float"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R 0.45"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/infobackground"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="3dp"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/infoicon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/blue_semi_transparent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterdetailsinfo"
+        />
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter top up amount"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="10dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:background="@drawable/inputfieldbackground"
+        android:id="@+id/topupAmount"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter confirmation Code"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="40dp"
+        android:inputType="textNoSuggestions"
+        android:background="@drawable/inputfieldbackground"
+        android:id="@+id/confirmationCode"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="40dp"
+        android:text="Top up"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbackground"
+        android:id="@+id/topupBtn"
+        />
+
+
+</LinearLayout>

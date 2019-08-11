@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tsogatec</string>
+    <string name="usernameLabel">Enter Username</string>
+    <string name="passwordLabel">Enter Password</string>
+    <string name="forgotPasswordLabel"><u>Forgot Password ?</u></string>
+    <string name="registerLabel"><u>Register</u></string>
+    <string name="loginBtn">Login</string>
+    <string name="profile">Profile</string>
+    <string name="enterdetailsinfo">Please enter correctly the details from your deposit slip below</string>
+    <string name="title_activity_sold_tokens">SoldTokens</string>
+</resources>
