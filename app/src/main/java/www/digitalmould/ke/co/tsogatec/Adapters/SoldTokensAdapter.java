@@ -41,7 +41,7 @@ public class SoldTokensAdapter extends RecyclerView.Adapter<SoldTokensAdapter.Vi
         tokenList.add(new Token("196012","810","12/12/2010"));
         tokenList.add(new Token("196012","1800","12/12/2010"));
         width= LinearLayout.LayoutParams.MATCH_PARENT;
-        height= LinearLayout.LayoutParams.WRAP_CONTENT;
+        height= LinearLayout.LayoutParams.MATCH_PARENT;
         this.context=context;
 
     }
