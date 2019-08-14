@@ -26,7 +26,7 @@
         android:gravity="center"
         android:text="1800"
         android:textColor="@color/darkblue"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         />
     <TextView
@@ -53,8 +53,9 @@
             android:id="@+id/sellElecticity"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
+                android:gravity="center"
                 android:src="@mipmap/sellelectricityicon_round"
                 />
             <TextView
@@ -76,7 +77,8 @@
             android:layout_column="1"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:src="@mipmap/pasticon_round"
                 />
@@ -99,8 +101,9 @@
             android:id="@+id/topUpPanel"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
+                android:gravity="center"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/topupicon_round"
@@ -122,8 +125,9 @@
             android:id="@+id/sellAirtme"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
+                android:gravity="center"
                 android:src="@mipmap/sellicon_round"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"
@@ -145,10 +149,10 @@
             android:id="@+id/earningsPane"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:src="@mipmap/earning_round"
-                android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"
                 />
@@ -170,11 +174,12 @@
             android:id="@+id/soldTokens"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:src="@mipmap/pasticon_round"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"
+                android:gravity="center"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -193,11 +198,12 @@
             android:id="@+id/othersPane"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:src="@mipmap/others_round"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"
+                android:gravity="center"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -218,8 +224,9 @@
             android:id="@+id/searchPane"
             >
             <ImageView
-                android:layout_height="70dp"
-                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
                 android:src="@mipmap/searchicon_round"
                 android:layout_gravity="center"
                />
@@ -242,9 +249,10 @@
             android:id="@+id/settingsPane"
             >
             <ImageView
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:src="@mipmap/settingsicon_round"
+                android:gravity="center"
                 />
             <TextView
                 android:layout_width="match_parent"

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar=findViewById(R.id.mainToolbar);
-        toolbar.setTitle("Tsogatec");
+        toolbar.setTitle("tsogatec");
         setSupportActionBar(toolbar);
 
         topUpPane=findViewById(R.id.topUpPanel);

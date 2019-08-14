@@ -19,12 +19,12 @@ public class SoldTokens extends AppCompatActivity {
         setContentView(R.layout.activity_sold_tokens);
 
         toolbar=findViewById(R.id.soldTokensToolbar);
-        toolbar.setTitle("Tsogatec");
+        toolbar.setTitle("Sold Tokens");
         setSupportActionBar(toolbar);
 
 
         soldTokenRecyclerView=findViewById(R.id.soldTokenRecyclerView);
-        soldTokensAdapter=new SoldTokensAdapter();
+        soldTokensAdapter=new SoldTokensAdapter(getApplicationContext());
 
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(getApplicationContext());
 

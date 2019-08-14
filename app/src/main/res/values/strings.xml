@@ -8,4 +8,7 @@
     <string name="profile">Profile</string>
     <string name="enterdetailsinfo">Please enter correctly the details from your deposit slip below</string>
     <string name="title_activity_sold_tokens">SoldTokens</string>
+    <string name="tokenRequest">We have Recived your top up request.We are working to update your float as soon as possible</string>
+    <string name="sellTokenFail">You do not have enough float to buy token for amount 2000.Please topup your account to continue</string>
+    <string name="topupSucces">We have recieved your top up request .We are working to avail your float as soon as possible</string>
 </resources>

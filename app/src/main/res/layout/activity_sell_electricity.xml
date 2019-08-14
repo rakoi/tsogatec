@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/material_grey_300"
+    android:background="@color/white"
     tools:context=".SellElectricityActivity">
 
 
@@ -12,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/sellElecticityToolbar"
-        android:background="@color/white"
+        android:background="@color/darkgray"
+        app:titleTextColor="@color/themeColor"
         ></android.support.v7.widget.Toolbar>
 
 
@@ -27,8 +29,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Top Up Account"
+            android:text="Sell Electricity"
             android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="@color/darkblue"
             />
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,14 +44,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Remaining Float"
+                android:textSize="13dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="R 0.45"
+                android:text="1800"
+                android:id="@+id/selAccBal"
                 android:textStyle="bold"
                 android:textColor="@color/gray"
                 android:gravity="right"
+                android:textSize="20dp"
                 />
         </LinearLayout>
 
@@ -69,9 +76,10 @@
             />
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:inputType="number"
             android:layout_marginTop="10dp"
+            android:id="@+id/sellMeterNo"
             android:background="@drawable/inputfieldbackground"/>
         <TextView
             android:layout_width="wrap_content"
@@ -82,29 +90,42 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:inputType="textNoSuggestions"
             android:layout_marginTop="10dp"
+            android:id="@+id/sellPhoneNo"
             android:background="@drawable/inputfieldbackground"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Enter Amount"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:inputType="number"
+            android:id="@+id/sellAmount"
             android:layout_marginTop="10dp"
             android:background="@drawable/inputfieldbackground"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/sellWarning"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/red"
+            />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="submit"
+            android:id="@+id/sellBtn"
             android:layout_marginTop="30dp"
             android:textColor="@color/white"
             android:background="@drawable/buttonbackground"
