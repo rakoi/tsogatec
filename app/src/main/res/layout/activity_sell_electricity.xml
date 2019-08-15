@@ -91,7 +91,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:inputType="textNoSuggestions"
+            android:inputType="number"
             android:layout_marginTop="10dp"
             android:id="@+id/sellPhoneNo"
             android:background="@drawable/inputfieldbackground"/>
