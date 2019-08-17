@@ -97,12 +97,14 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/average"
                 android:text="@string/registerLabel"
+                android:id="@+id/goToRegister"
                 android:textColor="@color/material_grey_600" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/forgotPasswordLabel"
                 android:textColor="@color/material_grey_600"
+                android:id="@+id/goToForgotPassword"
                 />
 
         </LinearLayout>

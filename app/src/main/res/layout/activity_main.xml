@@ -15,7 +15,6 @@
         app:titleTextColor="@color/themeColor"
         android:background="@color/white"
         android:id="@+id/mainToolbar"
-
         ></android.support.v7.widget.Toolbar>
 
 

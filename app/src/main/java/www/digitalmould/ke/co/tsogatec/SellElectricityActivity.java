@@ -73,23 +73,24 @@ public class SellElectricityActivity extends AppCompatActivity {
 
         if(currentAcc<amount){
             dialogView= LayoutInflater.from(this).inflate(R.layout.sell_elec_fail,viewGroup,false);
+            Button button=dialogView.findViewById(R.id.selltopUpBtn);
+
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),TopUpAccount.class));
+                    finish();
+                }
+            });
+
 
         }else{
-            dialogView= LayoutInflater.from(this).inflate(R.layout.sell_elec_success,viewGroup,false);
+           dialogView= LayoutInflater.from(this).inflate(R.layout.sell_elec_success,viewGroup,false);
 
         }
        AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setView(dialogView);
 
-        Button button=(Button)dialogView.findViewById(R.id.selltopUpBtn);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),TopUpAccount.class));
-                finish();
-            }
-        });
 
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
