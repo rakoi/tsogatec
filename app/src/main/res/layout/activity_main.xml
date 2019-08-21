@@ -39,12 +39,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:gravity="center"
         >
 
         <LinearLayout
             android:layout_width="100dp"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="0"
@@ -72,7 +71,7 @@
             android:orientation="vertical"
             android:layout_row="0"
             android:id="@+id/paybills"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="1"
             >
             <ImageView
@@ -94,7 +93,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:orientation="vertical"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_row="0"
             android:layout_column="2"
             android:id="@+id/topUpPanel"
@@ -103,7 +102,7 @@
                 android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:gravity="center"
-                android:layout_marginLeft="10px"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/topupicon_round"
                 />
@@ -119,7 +118,7 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="1"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="0"
             android:id="@+id/sellAirtme"
             >
@@ -128,7 +127,7 @@
                 android:layout_width="match_parent"
                 android:gravity="center"
                 android:src="@mipmap/sellicon_round"
-                android:layout_marginLeft="10px"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 />
             <TextView
@@ -143,7 +142,7 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="1"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="1"
             android:id="@+id/earningsPane"
             >
@@ -152,7 +151,7 @@
                 android:layout_width="match_parent"
                 android:src="@mipmap/earning_round"
                 android:gravity="center"
-                android:layout_marginLeft="10px"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 />
             <TextView
@@ -168,7 +167,7 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="1"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="2"
             android:id="@+id/soldTokens"
             >
@@ -176,7 +175,7 @@
                 android:layout_height="60dp"
                 android:layout_width="match_parent"
                 android:src="@mipmap/pasticon_round"
-                android:layout_marginLeft="10px"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:gravity="center"
                 />
@@ -192,7 +191,7 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="2"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="0"
             android:id="@+id/othersPane"
             >
@@ -201,7 +200,7 @@
                 android:layout_width="match_parent"
 
                 android:src="@mipmap/others_round"
-                android:layout_marginLeft="10px"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:gravity="center"
                 />
@@ -217,9 +216,9 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="2"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="1"
-            android:layout_marginLeft="10px"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:id="@+id/searchPane"
             >
@@ -242,9 +241,9 @@
             android:layout_height="100dp"
             android:orientation="vertical"
             android:layout_row="2"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:layout_column="2"
-            android:layout_marginLeft="10px"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:id="@+id/settingsPane"
             >
