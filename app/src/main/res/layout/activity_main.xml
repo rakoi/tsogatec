@@ -37,9 +37,9 @@
         />
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
         >
 
         <LinearLayout
@@ -196,9 +196,10 @@
             android:layout_column="0"
             android:id="@+id/othersPane"
             >
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_height="60dp"
                 android:layout_width="match_parent"
+
                 android:src="@mipmap/others_round"
                 android:layout_marginLeft="10px"
                 android:layout_marginRight="10dp"

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/triangles"
     tools:context=".RegisterActivity">
 
     <android.support.v7.widget.Toolbar
@@ -12,36 +13,33 @@
         android:layout_height="wrap_content"
         app:titleTextColor="@color/themeColor"
         android:id="@+id/registerToolbar"
-        android:background="@color/white"
+        android:background="@color/darkgray"
         ></android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/triangles"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center"
         android:elevation="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/registerbackground"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
         >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/white"
-            android:layout_margin="20dp"
-            >
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:text="Enter Email"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:hint="example@xyz.com"
@@ -59,7 +57,7 @@
                 />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:inputType="textPassword"
                 android:hint="********"
                 android:layout_marginLeft="20dp"
@@ -77,7 +75,7 @@
                 />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_marginTop="10dp"
                 android:hint="*********"
                 android:inputType="textPassword"
@@ -88,12 +86,15 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:textColor="@color/white"
                 android:background="@drawable/buttonbackground"
                 android:text="Register"
                 />
-        </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>
